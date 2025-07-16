@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 10vh;
+}
+
+h2{
+    font-family: "Concert One", sans-serif;
+    font-size: 5vh;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 2vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.bg{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100vw;
+    filter: blur(10px);
+}
+
+.header{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-bottom: solid 1vh rgb(215, 224, 86);
+    width: 100vw;
+    position: fixed;
+    z-index: +1;
+}
+
+.header .left h2{
+    color: rgb(215, 224, 86);
+}
+
+.light{
+    height: 10vh;
+    filter: saturate(500%);
+}
+
+.footer{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-top: solid 1vh rgb(215, 224, 86);
+}
+
+
+.footer h2{
+    color: white;
+}
+
+.help p{
+    color: rgb(215, 224, 86);
+}
+
+.help{
+    display: flex;
+    gap: 4vh;
+}
+
+.newsletter{
+    display: flex;
+    gap: 2vh;
+}
+
+.footer button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.center button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.bg{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    overflow-x: hidden;
+    filter: blur(10px);
+}
+
+.landing{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-bottom: solid 1vh rgba(5, 69, 152);
+}
+
+.lleft{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2vw;
+}
+
+.lleft img{
+    background-color: rgb(215, 224, 86);
+    border-radius: 50%;
+}
+
+.lright{
+    width: 40%;
+}
+
+.lright h2{
+    font-size: 20vh;
+}
+
+.middle{
+    height: 30vh;
+    padding: 10vh;
+}
+
+.how{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: dashed 1vh rgb(215, 224, 86);
+    padding-bottom: 5vh;
+}
+
+.options{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    background-color: rgb(215, 224, 86, 0.4);
+}
+
+.options h2{
+    font-size: 7vh;
+    text-align: end;
+    margin-right: 2vh;
+}
+
+.soc{
+    width: 25vw;
+    height: 80vh;
+    background-color: rgba(5, 69, 152);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phoneandmail{
+    width: 50vw;
+    height: 80vh;
+    background-color: transparent;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.phone{
+    width: 50vw;
+    height: 35vh;
+    background-color: rgb(215, 224, 86);
+    border-radius: 25px;
+}
+
+.email{
+    width: 50vw;
+    height: 35vh;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.soccontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.soccontent img{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pic{
+    margin-left: 5vh;
+    height: 20vh;
+}
+
+.pmcontent{
+    display: flex;
+}
+
+.paside{
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+}
+
+.change h2{
+    font-size: 5vh;
+}
+
+.email .pmcontent{
+    gap: 5vh;
+}
+
+.change{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.soctext{
+    font-size: 3vh;
+    color: white;
+    text-decoration: none;
+    font-family: "Concert One", sans-serif;
+}
+
+.home{
+    height: 8vh;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.help p:hover{
+    color: white;
+}
+
+.newsletter button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.center button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.wakarepo button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+
+.lleft img{
+    animation: spin 5s infinite linear;
+}
+  
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.middle:hover{
+    background-color: rgba(5, 69, 152);
+}
+
+.soc img:hover {
+    animation: hithere 1s ease infinite;
+}
+
+.paside img:hover {
+    animation: hithere 1s ease infinite;
+}
+
+.options h2:hover{
+    transform: scale(1.2);
+}
+
+@keyframes hithere {
+    30% { transform: scale(1.2); }
+    40%, 60% { transform: rotate(-20deg) scale(1.2); }
+    50% { transform: rotate(20deg) scale(1.2); }
+    70% { transform: rotate(0deg) scale(1.2); }
+    100% { transform: scale(1); }
+}

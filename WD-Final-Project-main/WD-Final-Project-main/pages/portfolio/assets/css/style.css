@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 10vh;
+}
+
+h2{
+    font-family: "Concert One", sans-serif;
+    font-size: 5vh;
+}
+
+p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 2vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.bg{
+    position: absolute;
+    object-fit: cover;
+    z-index: -2;
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100vw;
+    filter: blur(10px);
+}
+
+.sup{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    overflow-y: hidden;
+    height: 130vh;
+    width: 100vw;
+    filter: blur(4px);
+}
+
+.header{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-bottom: solid 1vh rgb(215, 224, 86);
+    width: 100vw;
+    position: fixed;
+    z-index: +1;
+}
+
+.header .left h2{
+    color: rgb(215, 224, 86);
+}
+
+.light{
+    height: 10vh;
+    filter: saturate(500%);
+}
+
+.footer{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-top: solid 1vh rgb(215, 224, 86);
+}
+
+
+.footer h2{
+    color: white;
+}
+
+.help p{
+    color: rgb(215, 224, 86);
+}
+
+.help{
+    display: flex;
+    gap: 4vh;
+}
+
+.newsletter{
+    display: flex;
+    gap: 2vh;
+}
+
+.footer button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.center button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.landing{
+    display: flex;
+    height: 100vh;
+    border-bottom: 4vh solid rgb(215, 224, 86);
+}
+
+.leftside{
+    padding: 20vh;
+    width: 60%;
+    display: flex;
+    margin-left: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftcontent{
+    width: 35vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(215, 224, 86, 0.5);
+    border: dotted 1vh rgba(5, 69, 152);
+    border-radius: 25px;
+    rotate: -5deg;
+}
+
+
+.rightcontent{
+    width: 12vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+.rightside{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.works{
+    background-color: rgb(215, 224, 86, 0.4);
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.number{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: dashed 2vh rgb(215, 224, 86);
+}
+
+.content{
+    padding-left: 2vw;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.works p{
+    color: white;
+}
+
+.works a{
+    color: white;
+}
+
+.activityone{
+    display: flex;
+    width: 50vw;
+    height: 20vh;
+    background-color: rgba(5, 69, 152);
+    border-radius: 25px;
+    margin-right: 30vw;
+}
+
+.activitytwo{
+    display: flex;
+    width: 50vw;
+    height: 20vh;
+    background-color: rgba(5, 69, 152);
+    border-radius: 25px;
+    margin-left: 30vw;
+}
+
+.activitythree{
+    display: flex;
+    width: 50vw;
+    height: 20vh;
+    background-color: rgba(5, 69, 152);
+    border-radius: 25px;
+    margin-right: 30vw;
+}
+
+.activityfour{
+    display: flex;
+    width: 50vw;
+    height: 20vh;
+    background-color: rgba(5, 69, 152);
+    border-radius: 25px;
+    margin-left: 30vw;
+}
+
+.list{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.activityfive{
+    display: flex;
+    width: 50vw;
+    height: 20vh;
+    background-color: rgba(5, 69, 152);
+    border-radius: 25px;
+    margin-right: 30vw;
+}
+
+.home{
+    height: 8vh;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.board{
+    position: absolute;
+    z-index: -1;
+    overflow-y: hidden;
+    height: 50vh;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.help p:hover{
+    color: white;
+}
+
+.newsletter button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.help p:hover{
+    color: white;
+}
+
+.newsletter button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.center button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.wakarepo button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+
+.leftcontent {
+    animation: wobble 4s ease infinite;
+}
+
+@keyframes wobble {
+    0% { transform: translateX(0%); }
+    15% { transform: translateX(-25%) rotate(-5deg); }
+    30% { transform: translateX(20%) rotate(3deg); }
+    45% { transform: translateX(-15%) rotate(-3deg); }
+    60% { transform: translateX(10%) rotate(2deg); }
+    75% { transform: translateX(-5%) rotate(-1deg); }
+    100% { transform: translateX(0%); }
+}
+
+.activityone:hover {
+    animation: fade-in-left 1s ease infinite;
+}
+
+.activitytwo:hover {
+    animation: fade-in-left 1s ease infinite;
+}
+
+.activitythree:hover {
+    animation: fade-in-left 1s ease infinite;
+}
+
+.activityfour:hover {
+    animation: fade-in-left 1s ease infinite;
+}
+
+.activityfive:hover {
+    animation: fade-in-left 1s ease infinite;
+}
+
+
+
+@keyframes fade-in-left {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

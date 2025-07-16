@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 10vh;
+}
+
+h2{
+    font-family: "Concert One", sans-serif;
+    font-size: 5vh;
+}
+
+p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 2vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    transition: filter 0.5s;
+    filter: grayscale(0%);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.bg{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100vw;
+    filter: blur(10px);
+}
+
+.header{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-bottom: solid 1vh rgb(215, 224, 86);
+    width: 100vw;
+    position: fixed;
+    z-index: +1;
+}
+
+
+
+.header .left h2{
+    color: rgb(215, 224, 86);
+}
+
+
+.footer{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-top: solid 1vh rgb(215, 224, 86);
+}
+
+.light{
+    height: 10vh;
+    filter: saturate(500%);
+}
+
+
+.footer h2{
+    color: white;
+}
+
+.help p{
+    color: rgb(215, 224, 86);
+}
+
+.help{
+    display: flex;
+    gap: 4vh;
+}
+
+.newsletter{
+    display: flex;
+    gap: 2vh;
+}
+
+.footer button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.landing{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 89vh;
+}
+
+.landingbottom{
+    width: 100vw;
+    height: 11vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.empty{
+    width: 20vw;
+}
+
+.typedout{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(20) infinite;
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+}
+
+.leftcontent{
+    transform: translate(0, 7vh);
+    text-align: center;
+    align-content: center;
+    border-top: solid 2vh rgb(215, 224, 86);
+    border-bottom: solid 2vh rgb(215, 224, 86);
+    border-radius: 75px;
+    height: 25vh;
+    width: 25vw;
+    background-color: rgba(5, 69, 152);
+    color: white;
+}
+
+.midcontent{
+    text-align: center;
+    align-content: center;
+    border-top: double 2vh rgb(215, 224, 86);
+    border-bottom: double 2vh rgb(215, 224, 86);
+    border-radius: 75px;
+    height: 40vh;
+    width: 30vw;
+    background-color: rgba(5, 69, 152);
+    color: white;
+}
+
+.rightcontent{
+    transform: translate(0, 9vh);
+    text-align: center;
+    align-content: center;
+    border-top: solid 2vh rgb(215, 224, 86);
+    border-bottom: solid 2vh rgb(215, 224, 86);
+    border-radius: 75px;
+    height: 30vh;
+    width: 30vw;
+    background-color: rgba(5, 69, 152);
+    color: white;
+}
+
+.center button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.home{
+    height: 8vh;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+
+.morecontent{
+    border-top: double 2vh rgba(5, 69, 152);
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+    padding: 10vw;
+    background-color: rgb(215, 224, 86, 0.8);
+}
+
+.overview{
+    width: 39vw;
+    padding-left: 2vw;
+}
+
+.gap{
+    width: 2vw;
+    border-left: 1vh dashed rgba(5, 69, 152);
+    border-right: 1vh dashed rgba(5, 69, 152);
+}
+
+.wakarepo{
+    width: 39vw;
+}
+
+.repo{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5vw;
+}
+
+.waka{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5vw;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+
+.wakarepo button{
+    margin-left: 1vw;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 5vh;
+    padding: 2vh;
+    width: 10vw;
+    border: solid 1vh rgba(5, 69, 152);
+    border-radius: 25px;
+}
+
+.center button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.wakarepo button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.leftcontent:hover{
+    animation: gelatine 3s infinite;
+}
+
+.midcontent:hover{
+    animation: gelatine 3s infinite;
+}
+
+.rightcontent:hover{
+    animation: gelatine 3s infinite;
+}
+
+.numbers h2{
+    color: black;
+}
+
+.numbers a{
+    text-decoration: none;
+}
+
+.numbers h2:hover{
+    color: rgba(5, 69, 152);
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes gelatine {
+    from, to { transform: scale(1, 1); }
+    25% { transform: scale(0.9, 1.1); }
+    50% { transform: scale(1.1, 0.9); }
+    75% { transform: scale(0.95, 1.05); }
+}
+
+.help p:hover{
+    color: white;
+}
+
+.newsletter button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}

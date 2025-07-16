@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 10vh;
+}
+
+h2{
+    font-family: "Concert One", sans-serif;
+    font-size: 5vh;
+}
+
+p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 2vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.bg{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100vw;
+    filter: blur(10px);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.header{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-bottom: solid 1vh rgb(215, 224, 86);
+    width: 100vw;
+    position: fixed;
+    z-index: +1;
+}
+
+.header .left h2{
+    color: rgb(215, 224, 86);
+}
+
+.light{
+    height: 10vh;
+    filter: saturate(500%);
+}
+
+.footer{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-top: solid 1vh rgb(215, 224, 86);
+}
+
+
+.footer h2{
+    color: white;
+}
+
+.help p{
+    color: rgb(215, 224, 86);
+}
+
+.help{
+    display: flex;
+    gap: 4vh;
+}
+
+.newsletter{
+    display: flex;
+    gap: 2vh;
+}
+
+.footer button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.center button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.bg{
+    height: 100vh;
+    width: 60vw;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    overflow-x: hidden;
+    filter: blur(10px);
+}
+
+.home{
+    height: 8vh;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.landing{
+    display: flex;
+    height: 100vh;
+    border-bottom: dotted 1vh rgba(5, 69, 152);
+}
+
+.leftside{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    text-align: end;
+    justify-content: center;
+}
+
+.rightside{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.me{
+    height: 70vh;
+    border: double 4vh rgba(5, 69, 152);
+    rotate: 3deg;
+}
+
+.personalinfo{
+    border-top: dotted 1vh rgb(215, 224, 86);
+    display: flex;
+    height: 100vh;
+}
+
+.who{
+    padding: 2vh;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.moreinfo{
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.moreinfo p{
+    margin-right: 5vw;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    background-color: rgb(215, 224, 86);
+}
+
+.geng{
+    height: 40vh;
+}
+
+.mbti{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.isfj{
+    height: 30vh;
+}
+
+.traits{
+    height: 40vh;
+}
+
+.values{
+    padding: 2vh;
+    width: 30%;
+    background-color: rgba(5, 69, 152, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+.values h2{
+    color: white;
+    text-align: center;
+}
+
+.values p{
+    text-align: center;
+}
+
+.myvalues{
+    border-bottom: dashed 1vh white;
+}
+
+.more{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+}
+
+.school{
+    padding: 2vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 224, 86, 0.6);
+}
+
+.uni{
+    height: 50vh;
+}
+
+.schoolinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1vw;
+}
+
+.skills{
+    padding: 2vh;
+    width: 50vw;
+    border: dotted 1vh rgba(5, 69, 152);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skilltop{
+    display: flex;
+    justify-content: center;
+}
+
+.skillbot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillbot img{
+    height: 20vh;
+}
+
+.me:hover{
+    filter: saturate(200%);
+}
+
+.leftcontent h1:hover{
+    animation: flash 1s ease infinite alternate;
+}
+
+@keyframes flash {
+    from { opacity: 1; }	
+    to { opacity: 0; }
+}
+
+@keyframes typing {
+    from { height: 0 }
+    to { height: 100% }
+}
+
+.moreinfo p:hover{
+    transform: translate(2vw);
+}
+
+.geng:hover{
+    filter: grayscale(50%);
+}
+
+.werk h2:hover{
+    color: rgb(215, 224, 86);
+}
+
+.myvalues h2:hover{
+    color: rgb(215, 224, 86);
+}
+
+.philo h2:hover{
+    color: rgb(215, 224, 86);
+}
+
+.skillbot img:hover{
+	backface-visibility: visible !important;
+	animation: flip 2s ease infinite;
+}
+
+@keyframes flip {
+	0% {
+		transform: perspective(400px) rotateY(0);
+		animation-timing-function: ease-out;
+	}
+	40% {
+		transform: perspective(400px) translateZ(150px) rotateY(170deg);
+		animation-timing-function: ease-out;
+	}
+	50% {
+		transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+		animation-timing-function: ease-in;
+	}
+	80% {
+		transform: perspective(400px) rotateY(360deg) scale(.95);
+		animation-timing-function: ease-in;
+	}
+	100% {
+		transform: perspective(400px) scale(1);
+		animation-timing-function: ease-in;
+	}
+}
+
+
+
+
+.help p:hover{
+    color: white;
+}
+
+.newsletter button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.center button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.wakarepo button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+

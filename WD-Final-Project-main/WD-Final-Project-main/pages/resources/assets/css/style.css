@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 15vh;
+}
+
+h2{
+    font-family: "Concert One", sans-serif;
+    font-size: 5vh;
+}
+
+p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 2vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.bg{
+    position: absolute;
+    z-index: -1;
+    height: 500vh;
+    width: 100vw;
+    filter: blur(1px);
+}
+
+.header{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-bottom: solid 1vh rgb(215, 224, 86);
+    width: 100vw;
+    position: fixed;
+    z-index: +1;
+}
+
+.header .left h2{
+    color: rgb(215, 224, 86);
+}
+
+.light{
+    height: 10vh;
+    filter: saturate(500%);
+}
+
+.footer{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-top: solid 1vh rgb(215, 224, 86);
+}
+
+
+.footer h2{
+    color: white;
+}
+
+.help p{
+    color: rgb(215, 224, 86);
+}
+
+.help{
+    display: flex;
+    gap: 4vh;
+}
+
+.newsletter{
+    display: flex;
+    gap: 2vh;
+}
+
+.footer button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.center button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.bg{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    overflow-x: hidden;
+    filter: blur(10px);
+}
+
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2vh solid rgb(215, 224, 86);
+    height: 100vh;
+}
+
+.computer{
+    position: absolute;
+    z-index: -1;
+    height: 90vh;
+    filter: grayscale(50%);
+    padding-right: 50vw;
+}
+
+.landing h1{
+    padding-left: 30vh;
+    backdrop-filter: blur(2px);
+    color: rgba(5, 69, 152);
+}
+
+.home{
+    height: 8vh;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.resources{
+    background-color: rgba(5, 69, 152, 0.6);
+    width: 100vw;
+    height: 270vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    width: 40.5vw;
+    gap: 1vh;
+}
+
+.content h2{
+    font-size: 12vh;
+}
+
+.visual{
+    width: 40.5vw;
+}
+
+.number{
+    width: 9vw;
+}
+
+.ggif{
+    height: 50vh;
+    width: 36vw;
+    overflow-x: hidden;
+}
+
+.visual{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.first{
+    padding: 2vh;
+    width: 90vw;
+    height: 55vh;
+    background-color: rgb(215, 224, 86);
+    border-radius: 50px;
+    display: flex;
+}
+
+.second{
+    padding: 2vh;
+    width: 90vw;
+    height: 55vh;
+    background-color: rgb(215, 224, 86);
+    border-radius: 50px;
+    display: flex;
+}
+
+.third{
+    padding: 2vh;
+    width: 90vw;
+    height: 55vh;
+    background-color: rgb(215, 224, 86);
+    border-radius: 50px;
+    display: flex;
+}
+.fourth{
+    padding: 2vh;
+    width: 90vw;
+    height: 55vh;
+    background-color: rgb(215, 224, 86);
+    border-radius: 50px;
+    display: flex;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.help p:hover{
+    color: white;
+}
+
+.newsletter button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.center button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.wakarepo button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.landing:hover > img{
+    filter: blur(10px);
+}
+
+.first:hover{
+    background-color: rgba(5, 69, 152);
+}
+
+.second:hover{
+    background-color: rgba(5, 69, 152);
+}
+
+.third:hover{
+    background-color: rgba(5, 69, 152);
+}
+
+.fourth:hover{
+    background-color: rgba(5, 69, 152);
+}

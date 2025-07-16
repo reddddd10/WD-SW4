@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 10vh;
+}
+
+h2{
+    font-family: "Concert One", sans-serif;
+    font-size: 5vh;
+}
+
+p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 2vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.bg{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100vw;
+    filter: blur(10px);
+}
+
+.header{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-bottom: solid 1vh rgb(215, 224, 86);
+    width: 100vw;
+    position: fixed;
+    z-index: +1;
+}
+
+.header .left h2{
+    color: rgb(215, 224, 86);
+}
+
+.light{
+    height: 10vh;
+    filter: saturate(500%);
+}
+
+.footer{
+    background-color: rgba(5, 69, 152);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    border-top: solid 1vh rgb(215, 224, 86);
+}
+
+
+.footer h2{
+    color: white;
+}
+
+.help p{
+    color: rgb(215, 224, 86);
+}
+
+.help{
+    display: flex;
+    gap: 4vh;
+}
+
+.newsletter{
+    display: flex;
+    gap: 2vh;
+}
+
+.footer button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.center button{
+    padding: 1vh;
+    font-family: "Concert One", sans-serif;
+    font-size: 2.5vh;
+    border: 1vh dotted rgb(215, 224, 86);
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+
+.bg{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    overflow-x: hidden;
+    filter: blur(10px);
+}
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.landing h1{
+    font-size: 15vh;
+    text-decoration: underline double 1vh rgba(5, 69, 152);
+}
+
+.bulbtip{
+    margin-bottom: 45vh;
+    margin-left: 25vw;
+    height: 50vh;
+    position: absolute;
+    z-index: -1;
+    overflow-x: hidden;
+}
+
+.tips{
+    border-top: dotted 2vh rgb(215, 224, 86);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.top{
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom{
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pin{
+    height: 10vh;
+}
+
+.tips p{
+    text-align: center;
+}
+
+.tone{
+    height: 35vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(215, 224, 86);
+    rotate: -2deg;
+}
+
+.ttwo{
+    height: 35vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(83, 213, 98);
+    rotate: 5deg;
+}
+
+.tthree{
+    height: 35vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 174, 33);
+    rotate: -10deg;
+}
+
+.tfour{
+    height: 35vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(107, 132, 215);
+    rotate: -4deg;
+}
+
+.tfive{
+    height: 35vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(217, 86, 224);
+    rotate: 12deg;
+}
+
+.tleft{
+    width: 70%;
+}
+
+.tright{
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.home{
+    height: 8vh;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.help p:hover{
+    color: white;
+}
+
+.newsletter button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.center button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.wakarepo button:hover{
+    transform: scale(1.3);
+    cursor: grab;
+}
+
+.landing:hover{
+    animation: fade-out 1s linear;
+}
+
+@keyframes fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.tone:hover{
+    animation: hinge 5s ease infinite;
+}
+
+.ttwo:hover{
+    animation: hinge 5s ease infinite;
+}
+
+.tthree:hover{
+    animation: hinge 5s ease infinite;
+}
+
+.tfour:hover{
+    animation: hinge 5s ease infinite;
+}
+
+.tfive:hover{
+    animation: hinge 5s ease infinite;
+}
+  
+@keyframes hinge {
+    0% { transform: rotate(0); transform-origin: top left; animation-timing-function: ease-in-out; }  
+    20%, 60% { transform: rotate(80deg); transform-origin: top left; animation-timing-function: ease-in-out; }  
+    40% { transform: rotate(60deg); transform-origin: top left; animation-timing-function: ease-in-out; } 
+    80% { transform: rotate(60deg) translateY(0); opacity: 1; transform-origin: top left; animation-timing-function: ease-in-out; } 
+    100% { transform: translateY(700px); opacity: 0; }
+}
